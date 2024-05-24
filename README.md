@@ -34,3 +34,11 @@ A PHP-based Online Voting System allowing secure and efficient voting processes.
 
 Enjoy secure and straightforward voting! 🗳️✨
 
+
+## Reach me at
+[![LinkedIn](https://img.icons8.com/fluency/48/000000/linkedin.png)](https://www.linkedin.com/in/pragya-pranati-85157a254)
+&nbsp;&nbsp;&nbsp;
+[![Gmail](https://img.icons8.com/fluency/48/000000/gmail.png)](mailto:pragyapranati543@gmail.com)
+[![Instagram](https://img.icons8.com/fluency/48/000000/instagram-new.png)](https://www.instagram.com/pragyapranati)
+&nbsp;&nbsp;&nbsp;
+
