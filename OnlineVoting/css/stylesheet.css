@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    text-align: center;
+    background-color: rgb(213, 245, 178);
+}
+
+input, #dropbox, #login, #register, #address, #image, #role select {
+    padding: 10px;
+    border-radius: 5px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.815); /* 50% translucent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    animation: colorChange 3s infinite; 
+  }
+  @keyframes colorChange {
+    0% { background-color: rgba(212, 243, 174, 0.9); } 
+    50% { background-color: rgba(180, 243, 180, 0.9); } 
+    100% { background-color: rgba(211, 245, 211, 0.9); }
+  }  
+
+input[type="submit"], #login, #register, #back, #logout {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#HeaderSection {
+    padding: 5px;
+}
+
+#HeaderSection h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: xx-large;
+}
+
+#dropbox {
+    width: 50%;
+}
+
+#address {
+    width: 30%;
+}
+
+#image, #role {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+}
+
+#role select {
+    width: 100%; 
+}
+
+
+#back, #logout {
+    margin-top: 10px; 
+}
+
+/* Button hover effect */
+input[type="submit"]:hover, #login:hover, #register:hover, #back:hover, #logout:hover {
+    background-color: rgb(216, 8, 8);
+}g
