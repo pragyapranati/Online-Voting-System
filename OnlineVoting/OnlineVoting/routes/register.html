@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Voting System - Registration</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+    <div id="HeaderSection">
+        <h1>Online Voting System</h1>
+    </div>
+    <hr>
+    <div id="BodySection">
+        <h3>Registration</h3> 
+    <form action="../api/register.php" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter name"> 
+        <input type="tel" name="mobile" placeholder="Enter mobile number" onclick="displayPhoneNumberFormat()"> <br><br>
+        <input type="password" name="password" placeholder="Enter password" onclick="displayPasswordRequirements()">
+        <input type="password" name="cpassword" placeholder="Confirm password"><br><br>
+        <input type="text" id="address" name="address" placeholder="Enter Address"><br><br>
+        <script>
+            function displayPasswordRequirements() 
+            {
+                alert("Password must contain:\n- At least one alphabet (a-z or A-Z)\n- At least one digit (0-9)\n- At least one special character (!@#$%^&*()_-+=)\n- At least 8 characters long");
+            }
+        </script>
+
+    <script>
+    function displayPhoneNumberFormat() 
+    {
+        alert("Mobile number must be a 10-digit number without any special characters or spaces.");
+    }
+    </script>
+
+        
+        <center>
+            <div id="image">
+                Upload image: <input type="file" name="photo">
+            </div>
+        
+        <br>
+        <div id="role">
+            Select Role: <select name="role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select>
+        </div>
+        <br>
+        </center>
+        <button id="register" type="submit">Register</button> <br><br>
+        Already user: <a href="../index.html">Login Here</a>
+    </form>
+    </div>
+    
+</body>
+</html>
